@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>日本大学文理学部情報科学科 Webプログラミングの演習課題</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <h1>日本大学文理学部情報科学科 Webプログラミングの演習課題</h1>
+<h4>41組　情報科学科　後藤正哉</h4>
+    <p>HTML（WHATWG Living Standard）の 
+<a href="https://html.spec.whatwg.org/multipage/#toc-semantics">「4 The elements of HTML」</a>から好きなHTML要素を3つ以上選び、その説明を行うWebページを作成しましょう。</p>
+
+
+    <ul>
+       <h2><li>The head element</h2></li><p>
+           (1 )head要素のコンテンツであり,body要素のコンテンツと違ってheadのコンテンツはページに表示されない。bodyタグの前,htmlタグの後に書くものであり文書のヘッダ部分を指定するタグとなっている。
+           <pre> <code>(2-1) &lt;head>
+        &lt;meta charset="utf-8">
+        &lt;title>My test page</title>
+    &lt;/head>
+    </code></pre>
+<pre>(2-2)
+    &lt;head>
+        &lt;meta http-equiv="content-type" content="text/html; charset=utf-8">
+        &lt;meta name="description" content="">
+        &lt;meta name="keywords" content="">
+        &lt;title>～&lt;title>
+        &lt;link href="style.css" rel="stylesheet" type="text/css" />
+        &lt;/head>
+</pre>
+(3)表示はされないので、動作結果はなし.</p>
+
+        <h2><li>The title element</li></h2>
+        <p>(1)&lt;title>要素については文章にタイトルを追加するのに使います。&lt;head> ~ &lt;/head>内にある&lt;title> ~ &lt;title>にそのページの題名を表す内容記述します。&lt;h1>要素と混同してしまうが別のものと考える。
+        <pre><code>(2-1)
+            &lt;head>
+                &lt;title>文書のタイトル&lt;/title>
+                &lt;/head></code></pre>
+               
+                <pre><code></code>(2-2)
+                &lt;title>
+                日本 （コードキッチン）
+                &lt;/title>
+
+        </code></pre>
+        </p>
+        <p>(3)</p>
+        実行例1 : 
+        <img src="images/1.png" alt="The Firefox logo: a flaming fox surrounding the Earth.",width="200" height="200">
+</p>
+    <p>  実行例2 :  <img src="images/2.png" alt=" a flaming fox surrounding the Earth.",width="200" height="200">
+        </p>
+
+
+        <h2><li>The style element</li></h2>
+        <p>(1)styleタグとは,HTMLのタグの種類でありhead内に記述することによりタグの開始とタグの終了の間にCSSを記述することができます.style属性とはHTMLのタグに付与できる属性であり,HTMLタグの中にCSSを記述する.</p>
+        <pre><code>(2-1)
+            &lt;style>
+                body {
+                    background-color: #00ff00
+                }
+         
+                .container {
+                    width: 90%;
+                    text-align: center;
+                }
+         
+                .first-sentence {
+                    font-weight: bold;
+                }
+            &lt;/style>
+        </code></pre>
+        <pre><code>(2-2)
+            &lt;style>
+                body {
+                    background-color: #00ff00
+                }
+         
+                .container {
+                    width: 90%;
+                    text-align: center;
+                }
+         
+                .first-sentence {
+                    font-weight: bold;
+                }
+            &lt;/style>
+        </code></pre>
+<p>(3)</p>
+        実行例1 :  <img src="images/3.png" alt="Tirefox logo: a flaming fox surrounding the Earth.",width="200" height="200">
+<p>
+    実行例2 : <img src="images/4.png" alt="Te Firefox logo: a flaming fox surrounding the Earth.",width="200" height="200">
+</p>
+
+
+    </ul>
+    <p></p>
+    <blockquote cite="引用元url">
+        <p><span>引用コンテンツ</span></p>
+        引用元：<cite><a href="https://www.sejuku.net/blog/80705">【HTML入門】styleタグやstyle属性を使って直接CSSを書き込もう！</a></cite>
+        <p>引用元：<cite><a href="https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML">head には何が入る? HTML のメタデータ</a></cite></p>
+        </blockquote>
+
+</body>
+
+</html>

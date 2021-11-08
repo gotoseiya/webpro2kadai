@@ -1,0 +1,17 @@
+
+  html {
+    background-color:slategrey;
+  }
+  h2{
+
+    color:red;
+  }
+
+  span{
+    border: 1px solid beige;
+    background-color:coral;
+  }
+
+  h4 {
+    text-align: right;
+  }
